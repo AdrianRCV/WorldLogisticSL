@@ -4,7 +4,6 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
@@ -22,6 +21,50 @@
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #060606; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #092710; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+.carousel-item.custom-bg-hero {
+  width: 100%;
+  height: 100%; /* Usa el 100% del alto del contenedor padre */
+  background-image: url('/assets/img/LogoEmpresa.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centra la imagen */
+  position: relative;
+}
+
+.carousel-item.custom-bg-hero2 {
+  width: 100%;
+  height: 100%; /* Usa el 100% del alto del contenedor padre */
+  background-image: url('/assets/img/Carousel2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centra la imagen */
+  position: relative;
+}
+
+.carousel-item.custom-bg-hero3 {
+  width: 100%;
+  height: 100%; /* Usa el 100% del alto del contenedor padre */
+  background-image: url('/assets/img/Carousel3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centra la imagen */
+  position: relative;
+}
+
+#hero-carousel {
+  height: 800px; /* O el alto que desees para todos los slides */
+}
+
+.carousel-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* negro semitransparente */
+  z-index: 1;
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -655,7 +698,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   position: relative;
   background: linear-gradient(0deg, var(--background-color) 0%, color-mix(in srgb, var(--background-color) 90%, white 10%) 100%);
@@ -673,8 +716,9 @@ section,
   flex-direction: column;
   text-align: center;
   position: relative;
-  min-height: 75vh;
+  height: 100%;
   padding-top: 60px;
+  box-sizing: border-box;
 }
 
 .hero h2 {
