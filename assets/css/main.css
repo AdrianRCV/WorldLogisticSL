@@ -1197,15 +1197,14 @@ section,
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   box-sizing: content-box;
   padding: 30px;
-  margin: 30px 15px;
+  margin: 15px 15px;
   position: relative;
   height: 100%;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  margin-right: 15px;
+  width: 380px;
+  border-radius: 10px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1238,13 +1237,11 @@ section,
 
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
-  left: -5px;
   position: relative;
 }
 
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
-  right: -5px;
   position: relative;
   top: 10px;
   transform: scale(-1, -1);
@@ -1256,7 +1253,7 @@ section,
 }
 
 .testimonials .swiper-wrapper {
-  height: auto;
+  max-height: 40vh;
 }
 
 .testimonials .swiper-pagination {
