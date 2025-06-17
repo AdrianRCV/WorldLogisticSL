@@ -55,6 +55,8 @@
 
 #hero-carousel {
   height: 800px; /* O el alto que desees para todos los slides */
+  width: 100%;
+  overflow: hidden;
 }
 
 .carousel-item .overlay {
