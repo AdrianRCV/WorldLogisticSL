@@ -1200,11 +1200,17 @@ section,
   margin: 15px 15px;
   position: relative;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 380px;
+  height: 380px;
+  object-fit: cover;
   border-radius: 10px;
+  display: block;
 }
 
 .testimonials .testimonial-item h3 {
