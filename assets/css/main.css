@@ -26,7 +26,7 @@
 .carousel-item.custom-bg-hero {
   width: 100%;
   height: 100%; /* Usa el 100% del alto del contenedor padre */
-  background-image: url('/assets/img/LogoEmpresa.png');
+  background-image: url('../img/LogoEmpresa.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; /* Centra la imagen */
@@ -36,7 +36,7 @@
 .carousel-item.custom-bg-hero2 {
   width: 100%;
   height: 100%; /* Usa el 100% del alto del contenedor padre */
-  background-image: url('/assets/img/Carousel2.png');
+  background-image: url('../img/Carousel2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; /* Centra la imagen */
@@ -46,7 +46,7 @@
 .carousel-item.custom-bg-hero3 {
   width: 100%;
   height: 100%; /* Usa el 100% del alto del contenedor padre */
-  background-image: url('/assets/img/Carousel3.jpg');
+  background-image: url('../img/Carousel3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; /* Centra la imagen */
